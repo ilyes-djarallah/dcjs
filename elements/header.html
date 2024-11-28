@@ -1,28 +1,9 @@
-<script>
-  // Function to toggle the visibility of project links on small screens
-  function toggleDropdown() {
-    var dropdown = document.getElementById("projects-dropdown");
-
-    // Toggle the dropdown visibility by adding/removing a class
-    if (dropdown.classList.contains("show-dropdown")) {
-      dropdown.classList.remove("show-dropdown"); // Hide if currently visible
-    } else {
-      dropdown.classList.add("show-dropdown"); // Show if currently hidden
-    }
-  }
-
-  // Add event listener to the "Projects" button
-  document
-    .getElementById("projects-btn")
-    .addEventListener("click", toggleDropdown);
-</script>
 <script src="scripts/translations.js"></script>
 <link rel="stylesheet" href="style.css" />
-<link rel="icon" href="assets/images/favicon.png" />
 <header>
   <nav class="navbar">
     <div class="navbar-logo">
-      <a href="index.html">
+      <a href="../index.html">
         <img src="../assets/images/DCEENY.png" alt="Logo" id="logo" />
       </a>
     </div>
@@ -54,17 +35,17 @@
       <button
         class="nav-link"
         data-translate="aboutUs"
-        onclick="location.href='about-us.html'"
+        onclick="location.href='../about-us.html'"
       ></button>
       <button
         class="nav-link"
         data-translate="services"
-        onclick="location.href='services.html'"
+        onclick="location.href='../services.html'"
       ></button>
       <button
         class="nav-link"
         data-translate="contacts"
-        onclick="location.href='contacts.html'"
+        onclick="location.href='../contacts.html'"
       ></button>
 
       <!-- Language Selection Dropdown -->
@@ -98,4 +79,22 @@
       </div>
     </div>
   </nav>
+  <script>
+    // Function to toggle the visibility of project links on small screens
+    function toggleDropdown() {
+      var dropdown = document.getElementById("projects-dropdown");
+
+      // Toggle the dropdown visibility by adding/removing a class
+      if (dropdown.classList.contains("show-dropdown")) {
+        dropdown.classList.remove("show-dropdown"); // Hide if currently visible
+      } else {
+        dropdown.classList.add("show-dropdown"); // Show if currently hidden
+      }
+    }
+
+    // Add event listener to the "Projects" button
+    document
+      .getElementById("projects-btn")
+      .addEventListener("click", toggleDropdown);
+  </script>
 </header>
