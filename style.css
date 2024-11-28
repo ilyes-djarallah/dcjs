@@ -1657,13 +1657,15 @@ h2 {
   padding-bottom: 10px;
   font-size: 30px;
 }
-
-/* Force LTR for specific elements */
-.ltr-only {
-  direction: ltr !important; /* Always write left-to-right */
+.contact-us h6{
+  font-size: 40px;
 }
 
-/* Optional: Add specific styling for links, if needed */
+.ltr-only {
+  direction: ltr !important;
+}
+
+
 .contact-us a {
   color: #000;
   text-decoration: none;
@@ -1703,6 +1705,7 @@ h2 {
 .social-media-iconas .icon-linkas:hover {
   transform: scale(1.1);
 }
+
 @media (max-width: 960px) {
   .icon-linkas {
     height: 40px;
