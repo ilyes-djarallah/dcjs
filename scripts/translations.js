@@ -117,7 +117,9 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
-    comingSoon:"New Projects Coming Soon",
+    comingSoon: "New Projects Coming Soon",
+    contactUs: "Contact us",
+    batnaAlgeria:"Batna, Algeria",
   },
   fr: {
     projects: "Projets",
@@ -238,7 +240,9 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
-    comingSoon:"Nouveaux projets à venir",
+    comingSoon: "Nouveaux projets à venir",
+    contactUs: "Contactez-nous",
+    batnaAlgeria:"Batna, Algérie",
   },
   ar: {
     projects: "المشاريع",
@@ -354,9 +358,12 @@ const translations = {
     deliveryOrganization: "تنظيم التسليم",
     hopeToHear: "نأمل أن أسمع منك قريبًا",
     privateBatna: "شقة خاصة - باتنة",
-    batna:"باتنة",
-    riyadh:"حي الرياض",
-    comingSoon:"مشاريع جديدة قريباً",
+    batna: "باتنة",
+    riyadh: "حي الرياض",
+    comingSoon: "مشاريع جديدة قريباً",
+    contactUs: "اتصل بنا",
+    batnaAlgeria:"باتنة، الجزائر",
+    
   },
 };
 

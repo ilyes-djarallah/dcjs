@@ -135,7 +135,7 @@ body.font-ar .submit-button {
 .page-title {
   text-align: center;
   padding-top: 20px;
-  font-size:  30px;
+  font-size: 30px;
   font-weight: 500;
 }
 /* Navbar Styles */
@@ -1643,5 +1643,69 @@ h2 {
   }
   .gallery-row-shit {
     gap: 5px;
+  }
+}
+/*============================================================================================================================*/
+/* General styling for the contact-us section */
+.contact-us-infos {
+  margin: 100px 300px 0px;
+}
+
+.contact-us {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+/* Force LTR for specific elements */
+.ltr-only {
+  direction: ltr !important; /* Always write left-to-right */
+}
+
+/* Optional: Add specific styling for links, if needed */
+.contact-us a {
+  color: #000;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 25px;
+}
+
+.contact-us a:hover {
+  text-decoration: underline;
+}
+.contact-us p {
+  text-transform: capitalize;
+}
+@media (max-width: 960px) {
+  .contact-us-infos {
+    margin: 30px 30px 0px;
+  }
+  .contact-us {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+  .contact-us a {
+    font-size: 20px;
+  }
+}
+.social-media-iconas {
+  display: flex;
+  margin: 10px auto;
+  transition: transform 0.3s;
+  gap: 30px;
+  margin-top: 1.5rem;
+}
+.icon-linkas {
+  height: 60px;
+  width: 60px;
+}
+.social-media-iconas .icon-linkas:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 960px) {
+  .icon-linkas {
+    height: 40px;
+    width: 40px;
   }
 }
