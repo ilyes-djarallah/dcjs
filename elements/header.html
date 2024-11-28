@@ -1,4 +1,21 @@
+<script>
+  // Function to toggle the visibility of project links on small screens
+  function toggleDropdown() {
+    var dropdown = document.getElementById("projects-dropdown");
 
+    // Toggle the dropdown visibility by adding/removing a class
+    if (dropdown.classList.contains("show-dropdown")) {
+      dropdown.classList.remove("show-dropdown"); // Hide if currently visible
+    } else {
+      dropdown.classList.add("show-dropdown"); // Show if currently hidden
+    }
+  }
+
+  // Add event listener to the "Projects" button
+  document
+    .getElementById("projects-btn")
+    .addEventListener("click", toggleDropdown);
+</script>
 <script src="scripts/translations.js"></script>
 <link rel="stylesheet" href="style.css" />
 <link rel="icon" href="assets/images/favicon.png" />
