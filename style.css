@@ -134,8 +134,9 @@ body.font-ar .submit-button {
 }
 .page-title {
   text-align: center;
-  font-size: 40px;
-  font-weight: 900;
+  padding-top: 20px;
+  font-size:  30px;
+  font-weight: 500;
 }
 /* Navbar Styles */
 .navbar {
