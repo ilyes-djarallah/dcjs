@@ -138,7 +138,7 @@ const translations = {
     designerSup: "Supervision du\ndesigner",
     purchaseAss: "Achat et\nassemblage",
     vR: "Expérience VR",
-    advantagesUp: "advantages",
+    advantagesUp: "avantages",
     advantagesUpDescription:
       "Nous ne cessons jamais de travailler sur nous-mêmes, et nous investissons les connaissances et l'expérience acquises dans chaque nouveau projet. Nous essayons de créer une relation de confiance avec chaque client. En travaillant avec nous, vous bénéficierez des avantages suivants :",
     upDesign: "Design\ntendance",
