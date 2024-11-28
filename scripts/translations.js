@@ -117,6 +117,7 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
+    comingSoon:"New Projects Coming Soon",
   },
   fr: {
     projects: "Projets",
@@ -237,6 +238,7 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
+    comingSoon:"Nouveaux projets à venir",
   },
   ar: {
     projects: "المشاريع",
@@ -354,6 +356,7 @@ const translations = {
     privateBatna: "شقة خاصة - باتنة",
     batna:"باتنة",
     riyadh:"حي الرياض",
+    comingSoon:"مشاريع جديدة قريباً",
   },
 };
 
