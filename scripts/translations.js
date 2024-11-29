@@ -249,8 +249,8 @@ const translations = {
     privateProjects: "مشاريع خاصة",
     publicProjects: "مشاريع عامة",
     aboutUs: "من نحن",
-    services: "خدمات",
-    contacts: "اتصال",
+    services: "الخدمات",
+    contacts: "اتصل بنا",
     langauge: "AR",
     prvapartment: "شقة خاصة",
     livingRoom: "غرفة المعيشة", // Add new entry
@@ -450,7 +450,17 @@ function setLanguageDirection(language) {
   } else if (language === "ar") {
     body.classList.add("rtl", "font-ar");
   }
+  // Adjust direction for all inputs explicitly
+  const inputs = document.querySelectorAll("input");
+  inputs.forEach((input) => {
+    if (language === "ar") {
+      input.setAttribute("dir", "rtl");
+    } else {
+      input.setAttribute("dir", "ltr");
+    }
+  });
 }
+
 
 // Example of switching language when clicking a language button
 document.getElementById("lge-btn").addEventListener("click", () => {

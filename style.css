@@ -1081,8 +1081,8 @@ body.font-ar .submit-button {
 /* Content styles */
 .social-media-text,
 .social-media-icons {
+  text-align: center;
   position: relative;
-  /* Layer the content on top of the background */
   z-index: 4;
 }
 
@@ -1096,7 +1096,7 @@ body.font-ar .submit-button {
 
 .social-media-text p.description2 {
   font-size: 18px;
-  max-width: 600px;
+  /* max-width: 600px; */
   line-height: 1.5;
   margin-bottom: 4rem;
   text-align: center;
@@ -1204,6 +1204,12 @@ body.font-ar .submit-button {
   box-sizing: border-box;
   /* Ensure padding doesn't increase width */
   border-radius: 0;
+}
+
+/* For phone number input in RTL mode */
+input [dir="rtl"] {
+  text-align: right !important;
+  direction: ltr !important;
 }
 
 /* Label styling */
