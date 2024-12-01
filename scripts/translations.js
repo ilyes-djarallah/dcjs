@@ -181,7 +181,7 @@ const translations = {
     rightsRes: "© Tous droits réservés",
     aboutUp: "À PROPOS DE NOUS",
     usDc: "DCEENY Studio est un studio d'architecture et de design d'intérieur basé en Algérie. Passionné par la création de maisons et d'espaces intemporels qui dépassent les attentes de nos clients.",
-    orderProjectDesign: "COMMANDER UN PROJET DE CONCEPTION",
+    orderProjectDesign: "COMMANDER UNE CONCEPTION DE PROJET",
     rostom: "Rostom Merade",
     ilyes: "Ilyes Djarallah",
     bahEddine: "Bahaeddine Arab",

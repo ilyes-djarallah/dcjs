@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 });
 document.addEventListener("DOMContentLoaded", () => {
-  const orderButton = document.getElementById("orderButton");
+  const orderButton = document.getElementById("projects");
   const orderOverlay = document.getElementById("orderOverlay");
   const closeOverlay = document.getElementById("closeOverlay");
 
