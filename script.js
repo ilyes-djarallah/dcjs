@@ -16,7 +16,28 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 500); // Match the fade-out duration
   };
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const orderButton = document.getElementById("orderButton");
+  const orderOverlay = document.getElementById("orderOverlay");
+  const closeOverlay = document.getElementById("closeOverlay");
 
+  // Show the overlay when the order button is clicked
+  orderButton.addEventListener("click", () => {
+    orderOverlay.style.display = "flex"; // Display as flex to center content
+  });
+
+  // Hide the overlay when the close button is clicked
+  closeOverlay.addEventListener("click", () => {
+    orderOverlay.style.display = "none";
+  });
+
+  // Hide overlay if user clicks outside the form
+  orderOverlay.addEventListener("click", (e) => {
+    if (e.target === orderOverlay) {
+      orderOverlay.style.display = "none";
+    }
+  });
+});
 /*============================================================================================================================*/
 document.addEventListener("DOMContentLoaded", function () {
   // Function to handle form submissions
