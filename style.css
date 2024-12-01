@@ -158,6 +158,7 @@ body.font-ar .submit-button {
 /* Navbar Styles */
 .navbar {
   display: flex;
+  
   align-items: center;
   justify-content: space-between;
   height: 80px;
@@ -200,6 +201,8 @@ body.font-ar .submit-button {
 /* Container styling for positioning dropdown */
 .nav-item-container {
   position: relative;
+  margin: 0px auto;
+  text-align: center;
 }
 
 /* Dropdown Menu Styling */
@@ -351,6 +354,7 @@ body.font-ar .submit-button {
     align-items: center;
     padding: 10px 20px;
     height: auto;
+    max-width: 100%;
   }
 
   /* Ensure RTL language does not change column layout */
@@ -379,13 +383,13 @@ body.font-ar .submit-button {
   .nav-link {
     font-size: 14px;
     padding: 10px 0;
-    width: 100%;
-    /* Make links full width */
+    max-width: 100%;
+    margin: 0px auto;
     text-align: center;
   }
 
   .dropdown-wrapper {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -416,6 +420,7 @@ body.font-ar .submit-button {
     /* Remove padding */
     visibility: hidden;
     padding: 0;
+    max-width: 100%;
   }
 
   /* Smooth expand and collapse using keyframes */
@@ -462,17 +467,9 @@ body.font-ar .submit-button {
   /* Dropdown link styling on mobile */
   .dropdown-link {
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     padding: 10px 0;
     font-size: 14px;
-  }
-
-  /* Center and adjust nav links for mobile */
-  .nav-link {
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    padding: 10px 0;
   }
 }
 
@@ -483,7 +480,6 @@ body.font-ar .submit-button {
   max-width: 100%;
   /* overflow: hidden; */
   height: 700px;
-  /* Set a height to define the slideshow area */
 }
 
 .slide {
