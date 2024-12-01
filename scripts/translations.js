@@ -117,7 +117,7 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
-    riyadhSurf:"- 90 م² -",
+    riyadhSurf:"- 90 m² -",
     comingSoon: "New Projects Coming Soon",
     contactUs: "Contact us",
     batnaAlgeria: "Batna, Algeria",
