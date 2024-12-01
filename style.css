@@ -158,7 +158,7 @@ body.font-ar .submit-button {
 /* Navbar Styles */
 .navbar {
   display: flex;
-  
+
   align-items: center;
   justify-content: space-between;
   height: 80px;
@@ -347,7 +347,6 @@ body.font-ar .submit-button {
 
 /* Mobile and small screen styles */
 @media (max-width: 960px) {
-
   /* Navbar styling adjustments for smaller screens */
   .navbar {
     flex-direction: column !important;
@@ -1156,10 +1155,11 @@ body.font-ar .submit-button {
     max-width: 500px;
     margin: auto 30px;
   }
+
   .description3 {
     font-size: 22px;
-
   }
+
   .social-media-icons .icon-link {
     width: 40px;
     height: 40px;
@@ -2030,7 +2030,6 @@ h2 {
   direction: ltr !important;
 }
 
-
 .contact-us a {
   color: #000;
   text-decoration: none;
@@ -2083,4 +2082,75 @@ h2 {
     height: 40px;
     width: 40px;
   }
+}
+
+/*============================================================================================================================*/
+.grayed-Container-second {
+  background-color: #f2f2f2;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.do-you-want-row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding: 25px 100px;
+}
+.order-buttons#projects {
+  margin: 0;
+  border: 3px solid black;
+}
+.do-you-want-row p {
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .do-you-want-row {
+    gap: 50px;
+    padding: 20px 50px;
+    flex-direction: column;
+  }
+}
+/*============================================================================================================================*/
+/* Overlay styling */
+.overlay-order {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: none; /* Initially hidden */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Make sure it floats above everything */
+}
+
+/* Form wrapper styling */
+/* .form-wrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+/* Close button */
+.close-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: darkred;
 }

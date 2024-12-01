@@ -1,145 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dceeny</title>
 
-    <!-- External Libraries -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dceeny</title>
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fancybox CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-    />
+  <!-- External Libraries -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <!-- Fancybox JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
-    <!-- Translation Script -->
-    <script src="../scripts/translations.js"></script>
-    <link rel="icon" href="assets/images/favicon.png" />
-  </head>
+  <!-- Fancybox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+  <!-- Translation Script -->
+  <script src="../scripts/translations.js"></script>
+  <link rel="icon" href="assets/images/favicon.png" />
+</head>
+<script>
+  $(document).ready(function () {
+    $("#header-container").load("elements/header.html", function () {
+      const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
+      applyTranslations(savedLanguage); // Call translation function after loading
+    });
+  });
+</script>
+<script>
+  $(function () {
+    $("#footer").load("elements/footer.html", function () {
+      applyTranslations(localStorage.getItem("preferredLanguage") || "en");
+    });
+  });
+</script>
+
+<body>
+  <div id="loading-screen">
+    <div class="loader"></div>
+    <p>Loading, please wait...</p>
+  </div>
+  <header id="header-container"></header>
+  <!-- Text Section -->
+  <div class="gallery-text">
+    <h1 data-translate="privateBatna"></h1>
+    <p data-translate="tamechitInfo"></p>
+  </div>
+  <!-- Gallery Section -->
+  <div class="gallery-shit">
+    <div class="gallery-row-shit">
+      <a href="../assets/images/projects/private/Tamechit/Cam 001.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 001.jpg" alt="Image 1" />
+      </a>
+      <a href="../assets/images/projects/private/Tamechit/Cam 002.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 002.jpg" alt="Image 2" />
+      </a>
+    </div>
+    <div class="gallery-row-shit">
+      <a href="../assets/images/projects/private/Tamechit/Cam 003.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 003.jpg" alt="Image 1" />
+      </a>
+      <a href="../assets/images/projects/private/Tamechit/Cam 004.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 004.jpg" alt="Image 2" />
+      </a>
+    </div>
+    <div class="gallery-row-shit">
+      <a href="../assets/images/projects/private/Tamechit/Cam 005.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 005.jpg" alt="Image 1" />
+      </a>
+      <a href="../assets/images/projects/private/Tamechit/Cam 006.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 006.jpg" alt="Image 2" />
+      </a>
+    </div>
+    <div class="gallery-row-shit">
+      <a href="../assets/images/projects/private/Tamechit/Cam 007.jpg" data-fancybox="gallery">
+        <img src="../assets/images/projects/private/Tamechit/Cam 007.jpg" alt="Image 1" />
+      </a>
+
+    </div>
+  
+  </div>
+  <div class="grayed-Container-second">
+    <div class="do-you-want-row">
+      <p data-translate="doYouWant"></p>
+      <button class="order-buttons" id="projects" data-translate="orderProjectDesign" onclick="location.href='index.html'"></button>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+  <script src="script.js"></script>
   <script>
-    $(document).ready(function () {
-      $("#header-container").load("elements/header.html", function () {
-        const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
-        applyTranslations(savedLanguage); // Call translation function after loading
-      });
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      Thumbs: false, // Disable thumbnails
+      Toolbar: true, // Disable toolbar if not needed
     });
   </script>
-  <script>
-    $(function () {
-      $("#footer").load("elements/footer.html", function () {
-        applyTranslations(localStorage.getItem("preferredLanguage") || "en");
-      });
-    });
-  </script>
+</body>
 
-  <body>
-    <div id="loading-screen">
-      <div class="loader"></div>
-      <p>Loading, please wait...</p>
-    </div>
-    <header id="header-container"></header>
-    <!-- Text Section -->
-    <div class="gallery-text">
-      <h1 data-translate="riyadh"></h1>
-      <p></p>
-    </div>
-    <!-- Gallery Section -->
-    <div class="gallery-shit">
-      <div class="gallery-row-shit">
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 1"
-          />
-        </a>
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 2"
-          />
-        </a>
-      </div>
-      <div class="gallery-row-shit">
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 1"
-          />
-        </a>
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 2"
-          />
-        </a>
-      </div>
-      <div class="gallery-row-shit">
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 1"
-          />
-        </a>
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 2"
-          />
-        </a>
-      </div>
-      <div class="gallery-row-shit">
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 1"
-          />
-        </a>
-        <a
-          href="../assets/images/projects/private/Riyadh/cam 5.jpg"
-          data-fancybox="gallery"
-        >
-          <img
-            src="../assets/images/projects/private/Riyadh/cam 5.jpg"
-            alt="Image 2"
-          />
-        </a>
-      </div>
-    </div>
-    <footer id="footer"></footer>
-    <script src="script.js"></script>
-    <script>
-      Fancybox.bind('[data-fancybox="gallery"]', {
-        Thumbs: false, // Disable thumbnails
-        Toolbar: true, // Disable toolbar if not needed
-      });
-    </script>
-  </body>
 </html>

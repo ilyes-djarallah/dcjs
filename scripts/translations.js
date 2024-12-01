@@ -114,17 +114,21 @@ const translations = {
     contractorSearchAndCoordination: "Contractor search and coordination",
     deliveryOrganization: "Delivery organization",
     hopeToHear: "WE'RE EXCITED TO HELP YOU WITH YOUR PROJECT!",
+    doYouWant:"DO YOU WANT THE SAME STYLING INTERIOR ?",
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
-    riyadhSurf:"- 90 m² -",
+    riyadhSurf: "- 90 m² -",
     comingSoon: "New Projects Coming Soon",
     contactUs: "Contact us",
     batnaAlgeria: "Batna, Algeria",
     tamechit: "Tamechit",
-    
-    tamechitSurf:"- 15 m² -",
-
+    tamechitSurf: "- 15 m² -",
+    riyadhInfo: "Type: interior | Location: Riyadh, Batna | Surface: 90 m²",
+    tamechitInfo: "Type: interior | Location: Tamechit, Batna | Surface: 15 m²",
+    hamla:"Hamla 2",
+    hamlaSurf:"- 70 m² -",
+    hamlaInfo:"Type: interior | Location: Hamla 2, Batna | Surface: 70 m²",
   },
   fr: {
     projects: "Projets",
@@ -242,6 +246,7 @@ const translations = {
       "Recherche et coordination des entrepreneurs",
     deliveryOrganization: "Organisation des livraisons",
     hopeToHear: "NOUS SOMMES RAVIS DE VOUS AIDER DANS VOTRE PROJET !",
+    doYouWant:"Voulez-vous le même style d'intérieur ?",
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
@@ -250,8 +255,14 @@ const translations = {
     contactUs: "Contactez-nous",
     batnaAlgeria: "Batna, Algérie",
     tamechit: "Tamechit",
-    tamechitSurf:"- 15 m² -",
-
+    tamechitSurf: "- 15 m² -",
+    riyadhInfo:
+      "Type: intérieure | Localisation: Riyad, Batna | Surface: 90 m²",
+    tamechitInfo:
+      "Type: intérieure | Localisation: Tamechit, Batna | Surface: 15 m²",
+    hamla:"Hamla 2",
+    hamlaSurf:"- 70 m² -",
+    hamlaInfo:"Type: intérieure | Localisation: Hamla 2, Batna | Surface: 70 m²",
   },
   ar: {
     projects: "المشاريع",
@@ -366,6 +377,7 @@ const translations = {
     contractorSearchAndCoordination: "البحث عن المقاولين وتنسيقهم",
     deliveryOrganization: "تنظيم التسليم",
     hopeToHear: "نأمل أن أسمع منك قريبًا",
+    doYouWant:"هل تريد نفس التصميم الداخلي؟",
     privateBatna: "شقة خاصة - باتنة",
     batna: "باتنة",
     riyadh: "حي الرياض",
@@ -375,6 +387,11 @@ const translations = {
     batnaAlgeria: "باتنة، الجزائر",
     tamechit: "تامشيط",
     tamechitSurf: "- 15 م² -",
+    riyadhInfo: "النوع: داخلية | المنطقة: حي الرياض، باتنة | المساحة: 90 م²",
+    tamechitInfo: "النوع: داخلية | المنطقة: حي تامشيط، باتنة | المساحة: 15 م²",
+    hamla:"حملة 2",
+    hamlaSurf:"- 70 م² -",
+    hamlaInfo:"النوع: داخلية | المنطقة: حملة 2، باتنة | المساحة: 70 م²",
   },
 };
 
