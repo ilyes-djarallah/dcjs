@@ -1948,13 +1948,13 @@ h2 {
 .gallery-shit {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 /* Gallery Row */
 .gallery-row-shit {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   /* Space between images */
   width: 100%;
   max-width: 100%;

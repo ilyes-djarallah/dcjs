@@ -117,9 +117,14 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
+    riyadhSurf:"- 90 م² -",
     comingSoon: "New Projects Coming Soon",
     contactUs: "Contact us",
-    batnaAlgeria:"Batna, Algeria",
+    batnaAlgeria: "Batna, Algeria",
+    tamechit: "Tamechit",
+    
+    tamechitSurf:"- 15 m² -",
+
   },
   fr: {
     projects: "Projets",
@@ -240,9 +245,13 @@ const translations = {
     privateBatna: "Appartement privé - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
+    riyadhSurf: "- 90 m² -",
     comingSoon: "Nouveaux projets à venir",
     contactUs: "Contactez-nous",
-    batnaAlgeria:"Batna, Algérie",
+    batnaAlgeria: "Batna, Algérie",
+    tamechit: "Tamechit",
+    tamechitSurf:"- 15 m² -",
+
   },
   ar: {
     projects: "المشاريع",
@@ -360,10 +369,12 @@ const translations = {
     privateBatna: "شقة خاصة - باتنة",
     batna: "باتنة",
     riyadh: "حي الرياض",
+    riyadhSurf: "- 90 م² -",
     comingSoon: "مشاريع جديدة قريباً",
     contactUs: "اتصل بنا",
-    batnaAlgeria:"باتنة، الجزائر",
-    
+    batnaAlgeria: "باتنة، الجزائر",
+    tamechit: "تامشيط",
+    tamechitSurf: "- 15 م² -",
   },
 };
 
@@ -460,7 +471,6 @@ function setLanguageDirection(language) {
     }
   });
 }
-
 
 // Example of switching language when clicking a language button
 document.getElementById("lge-btn").addEventListener("click", () => {
