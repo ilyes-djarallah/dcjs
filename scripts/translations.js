@@ -115,7 +115,7 @@ const translations = {
     deliveryOrganization: "Delivery organization",
     hopeToHear: "WE'RE EXCITED TO HELP YOU WITH YOUR PROJECT!",
     doYouWant:"DO YOU WANT THE SAME STYLING INTERIOR ?",
-    privateBatna: "Appartement privé - Batna",
+    privateBatna: "Private apartment - Batna",
     batna: "Batna",
     riyadh: "Riyadh",
     riyadhSurf: "- 90 m² -",

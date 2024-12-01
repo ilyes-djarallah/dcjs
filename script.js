@@ -38,6 +38,27 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollToTopBtn = document.getElementById("scrollToTop");
+
+  // Show or hide the button when scrolling
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 500) {
+      scrollToTopBtn.classList.add("show");
+    } else {
+      scrollToTopBtn.classList.remove("show");
+    }
+  });
+
+  // Scroll smoothly to the top when the button is clicked
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Enables smooth scrolling
+    });
+  });
+});
+
 /*============================================================================================================================*/
 document.addEventListener("DOMContentLoaded", function () {
   // Function to handle form submissions
