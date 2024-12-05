@@ -1678,7 +1678,9 @@ form#professionalForm {
   }
 
   .social-media-text h1.services-main-title {
-    font-size: 2rem;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .social-media-text p.services-description2 {
@@ -1723,19 +1725,30 @@ form#professionalForm {
   /* Darker gray for the titles */
 }
 
-@media (max-width: 960px) {
-  .icon-row-small-ones {
-    gap: 10px;
-    flex-direction: column;
-  }
-}
-
 .small-icons-title {
   font-size: 48px;
   font-weight: 400;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  .icon-row-small-ones {
+    gap: 10px;
+    flex-direction: column;
+  }
+  
+.small-icons-title {
+  font-size: 30px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
 }
 
 /*============================================================================================================================*/
