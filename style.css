@@ -691,7 +691,7 @@ body.font-ar .submit-button {
     /* Center the icons in a column */
     /* gap:30px; */
   }
-  .title{
+  .title {
     font-size: 30px;
   }
 
@@ -1735,22 +1735,19 @@ form#professionalForm {
   text-align: center;
 }
 
-
 @media (max-width: 960px) {
   .icon-row-small-ones {
     gap: 10px;
     flex-direction: column;
   }
-  
-.small-icons-title {
-  font-size: 30px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
 
-}
-
+  .small-icons-title {
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
 /*============================================================================================================================*/
@@ -1944,6 +1941,7 @@ h2 {
 /* Text Section */
 .gallery-text {
   text-align: center;
+
   margin-bottom: 30px;
 }
 
@@ -2021,6 +2019,14 @@ h2 {
 
   .gallery-row-shit {
     gap: 5px;
+  }
+  .gallery-text h1 {
+    font-size: 26px;
+    padding: 0 20px;
+  }
+  .gallery-text p {
+    font-size: 16px;
+    padding: 0 20px;
   }
 }
 
