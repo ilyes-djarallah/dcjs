@@ -691,6 +691,9 @@ body.font-ar .submit-button {
     /* Center the icons in a column */
     /* gap:30px; */
   }
+  .title{
+    font-size: 30px;
+  }
 
   .icon-item {
     margin-bottom: 20px;
@@ -1277,7 +1280,7 @@ form#orderForm {
   height: 60px;
   /* Larger button height */
   /* padding: 16px; */
-  font-size: 1.3rem;
+  font-size: 20px;
   /* Increased font size */
   font-weight: bold;
   background-color: black;
@@ -1331,8 +1334,7 @@ form#orderForm {
   .submit-button {
     width: 60%;
     /* Make the button wider for smaller screens */
-    padding: 15px;
-    font-size: 1.2rem;
+    /* padding: 15px; */
     /* Increased font size */
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
