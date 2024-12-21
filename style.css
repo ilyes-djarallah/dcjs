@@ -167,23 +167,30 @@ body.font-ar .submit-button {
   top: 0;
   z-index: 100;
 }
-.navbar-logo{
-  align-items: center;
+.navbar-logo {
+  display: flex; /* Ensure content is centered */
+  align-items: center; /* Vertically align logo */
+  justify-content: center; /* Center the logo horizontally */
+  height: 70px; /* Let the height adjust naturally */
+  width: 200px;
+  padding: auto 0px;
+}
+.navbar-logo a {
   height: 70px;
 }
 /* Logo Styles */
 .navbar-logo svg {
   flex: 1;
-  width: 80px;
-  height: auto;
+  width: 200px;
+  height: 70px;
   cursor: pointer;
 }
 
 .navbar-logo img {
   align-items: center;
-  /* flex: 1; */
+  flex: 1;
   width: 200px;
-  height: 70px;
+  height: auto;
   cursor: pointer;
 }
 
@@ -373,12 +380,21 @@ body.font-ar .submit-button {
   }
 
   /* Logo resizing */
-  .navbar-logo img {
+  /* .navbar-logo img {
     width: 200px;
     height: 70px;
-    /* Smaller logo for mobile */
+  } */
+  .navbar-logo svg {
+    width: 150px;
+    height: auto;
+    padding: auto 0px;
   }
-
+  .navbar-logo a {
+    width: 150px;
+    height: auto;
+    padding: auto 0px;
+    
+  }
   /* Navigation links styling for mobile */
   .navbar-links {
     display: flex;
@@ -1369,7 +1385,10 @@ form#orderForm {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 0px;
   position: relative;
   margin-top: auto;
   margin-bottom: 0;
@@ -1436,6 +1455,8 @@ form#orderForm {
     flex-direction: column;
     align-items: center;
     height: auto;
+    padding-left: 0;
+    padding-top: 0;
   }
 
   .social-media {
