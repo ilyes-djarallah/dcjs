@@ -184,6 +184,7 @@ body.font-ar .submit-button {
   width: 200px;
   height: 70px;
   cursor: pointer;
+  direction: ltr !important;
 }
 
 .navbar-logo img {
@@ -388,6 +389,7 @@ body.font-ar .submit-button {
     width: 150px;
     height: auto;
     padding: auto 0px;
+    
   }
   .navbar-logo a {
     width: 150px;
